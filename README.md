@@ -170,5 +170,3 @@ The analysis aims to support decisions such as:
 
 ---
 
-## License
-This project is created for educational purposes as part of a data analytics training program.
