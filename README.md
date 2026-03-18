@@ -1,39 +1,39 @@
 # Turning Customer Data into Marketing Decisions
-### Marketing Analytics Case Study using Excel, SQL, Python and Power BI
+### Marketing Analytics Case Study using Survey Data, Excel and Power BI
 
 ---
 
 ## Executive Summary
-This project demonstrates a complete analytics workflow that transforms raw customer transaction data into actionable marketing decisions.
+This project focuses on transforming customer opinions and behavioral insights into actionable marketing decisions.
 
-The objective is to simulate how analysts support business strategy by preparing data, exploring customer behavior, segmenting customers, and presenting insights through an interactive dashboard.
+Instead of relying on transactional data, this project is based on **primary research (survey data)** to understand what truly influences customer purchasing decisions.
 
-The analysis focuses on understanding purchasing patterns, identifying valuable customer groups, and supporting targeted marketing strategies using data-driven reasoning.
+The objective is to simulate how data analysts support marketing strategy by analyzing consumer behavior, identifying key decision drivers, and presenting insights through an interactive dashboard.
 
 ---
 
 ## Project Objectives
-- Analyze customer purchasing behavior
-- Identify high-value and low-value customers
-- Detect inactive and repeat customers
-- Support targeted marketing strategies
-- Present insights using interactive dashboards
+- Analyze customer behavior based on survey responses  
+- Identify key factors influencing purchasing decisions  
+- Understand what drives engagement with marketing content  
+- Analyze cart abandonment behavior  
+- Support data-driven marketing strategies  
 
 ---
 
 ## Dataset Overview
-> Dataset will be added later
+> Dataset will be added after data collection is completed
 
-The project uses transactional retail data containing information such as:
+The project uses **survey data collected from real users**, including:
 
-- Customer identifier
-- Order date
-- Product / category
-- Quantity
-- Sales amount
-- Geographic information
+- Shopping frequency  
+- Preferred marketing channels  
+- Advertisement engagement factors  
+- Purchase motivations  
+- Cart abandonment reasons  
+- Customer loyalty drivers  
 
-This type of dataset allows behavioral marketing analysis rather than only sales reporting.
+This dataset enables behavioral analysis focused on **why customers make decisions**, not just what they purchase.
 
 ---
 
@@ -41,9 +41,9 @@ This type of dataset allows behavioral marketing analysis rather than only sales
 
 | Area | Tools |
 |------|------|
+| Data Collection | Google Forms |
 | Data Preparation | Excel |
-| Data Querying | SQL |
-| Data Analysis | Python (Pandas, Matplotlib) |
+| Data Analysis | Excel |
 | Visualization | Power BI |
 | Version Control | Git & GitHub |
 
@@ -51,103 +51,89 @@ This type of dataset allows behavioral marketing analysis rather than only sales
 
 ## Methodology
 
-### 1. Data Preparation (Excel / SQL)
-- Inspect data structure
-- Handle missing values
-- Remove duplicates
-- Correct data types
-- Basic validation checks
+### 1. Data Collection
+- Design structured survey  
+- Distribute via social media and direct sharing  
+- Collect responses from target audience  
 
-### 2. Exploratory Data Analysis (Python)
-- Sales distribution analysis
-- Purchase frequency patterns
-- Product performance analysis
-- Time-based trends
-- Customer activity behavior
+### 2. Data Preparation (Excel)
+- Clean responses  
+- Handle missing values  
+- Standardize answers  
+- Encode categorical data  
 
-### 3. Customer Segmentation
-RFM segmentation is applied:
-
-- **Recency** – how recently a customer purchased
-- **Frequency** – how often they purchase
-- **Monetary** – how much they spend
-
-Customers are grouped into meaningful segments for targeted marketing actions.
+### 3. Exploratory Data Analysis
+- Response distribution analysis  
+- Behavioral pattern identification  
+- Comparison between different user groups  
+- Cross-analysis between variables  
 
 ### 4. Dashboard & Reporting (Power BI)
-An interactive dashboard is created to communicate insights including:
+An interactive dashboard is created to present:
 
-- Customer segment distribution
-- Purchase behavior patterns
-- Product performance
-- Retention indicators
+- Marketing channel effectiveness  
+- Customer behavior patterns  
+- Purchase motivations  
+- Cart abandonment insights  
+- Loyalty drivers  
 
 ---
 
 ## Key Performance Indicators (KPIs)
-- Customer Lifetime Value approximation
-- Repeat purchase rate
-- Active vs inactive customers
-- Average order value
-- Sales contribution per segment
+
+- Most Influential Marketing Channel  
+- Ad Engagement Drivers  
+- Purchase Motivation Factors  
+- Cart Abandonment Reasons  
+- Customer Loyalty Drivers  
+- Customer Shopping Frequency  
+- Preferred Shopping Platforms  
 
 ---
 
 ## Project Workflow
 
-Raw Data  
+Survey Design  
 ↓  
-Cleaning (Excel / SQL)  
+Data Collection  
 ↓  
-Exploration (Python)  
+Cleaning (Excel)  
 ↓  
-Customer Segmentation (RFM)  
+Exploration  
 ↓  
 Insights & KPIs  
 ↓  
 Dashboard (Power BI)  
 ↓  
-Marketing Recommendations
+Marketing Recommendations  
 
 ---
 
 ## Deliverables
-- Cleaned dataset
-- SQL queries
-- Python analysis notebook
-- Power BI dashboard
-- Business recommendations report
-
----
-
-## Project Structure
-
-project/  
-│  
-├── data/                 # dataset (to be added)  
-├── excel/                # preprocessing files  
-├── sql/                  # queries  
-├── notebooks/            # python analysis  
-├── dashboard/            # power bi file  
-└── README.md  
+- Survey dataset  
+- Cleaned Excel file  
+- Analysis results  
+- Power BI dashboard  
+- Business recommendations  
 
 ---
 
 ## Marketing Insights Goals
 The analysis aims to support decisions such as:
 
-- Identifying valuable customers to retain
-- Finding customers at risk of inactivity
-- Understanding purchasing habits
-- Supporting targeted campaigns instead of mass marketing
+- Identifying the most effective marketing channels  
+- Understanding what drives customer engagement  
+- Reducing cart abandonment  
+- Improving customer retention strategies  
+- Supporting targeted marketing instead of mass campaigns  
 
 ---
 
 ## Future Improvements
-- Customer churn prediction
-- Customer lifetime value modeling
-- Campaign performance evaluation
-- Automated segmentation updates
+- Increase sample size for higher accuracy  
+- Add customer segmentation layer  
+- Compare survey results with real-world datasets  
+- Build predictive models for customer behavior  
 
 ---
 
@@ -155,7 +141,7 @@ The analysis aims to support decisions such as:
 
 | Name | Role | LinkedIn |
 |-----|-----|-----|
-| Yomna Ebrahim | Data Visualization Specialist | [Profile](https://www.linkedin.com/in/yomna-ebrahim-4b7265255) |
+| Yomna Ebrahim | Visualization Wizard | [Profile](https://www.linkedin.com/in/yomna-ebrahim-4b7265255) |
 | Asmaa Yousef | Data Analyst | [Profile](https://www.linkedin.com/in/asmaa-yousif-83273637b) |
 | Nour Ali | Data Curator | [Profile](https://www.linkedin.com/in/nour-ali-elgamal) |
 | Rawda Abdelghaffar | Data Modeling | [Profile](https://www.linkedin.com/in/rawda-abdelghaffar) |
@@ -163,10 +149,9 @@ The analysis aims to support decisions such as:
 ---
 
 ## How to Use
-1. Download the dataset (when added)
-2. Run SQL scripts to prepare tables
-3. Execute Python notebook for analysis
-4. Open Power BI dashboard file
+1. Access the survey dataset (to be added)  
+2. Open Excel file for data cleaning and analysis  
+3. Explore insights  
+4. View Power BI dashboard  
 
 ---
-
