@@ -41,7 +41,7 @@ This dataset enables behavioral analysis focused on **why customers make decisio
 
 | Area | Tools |
 |------|------|
-| Data Collection | Google Forms |
+| Data Collection | Microsoft Forms |
 | Data Preparation | Excel |
 | Data Analysis | Excel |
 | Visualization | Power BI |
