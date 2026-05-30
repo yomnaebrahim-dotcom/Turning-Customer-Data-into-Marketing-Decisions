@@ -45,6 +45,7 @@ This dataset enables behavioral analysis focused on **why customers make decisio
 | Data Preparation | Excel |
 | Data Analysis | Excel |
 | Visualization | Power BI |
+| Database | MySQL / SQL |
 | Version Control | Git & GitHub |
 
 ---
@@ -68,7 +69,15 @@ This dataset enables behavioral analysis focused on **why customers make decisio
 - Comparison between different user groups  
 - Cross-analysis between variables  
 
-### 4. Dashboard & Reporting (Power BI)
+### 4. Data Modeling (SQL Implementation)
+As the Data Modeling contributor, I designed and implemented a relational schema to transform the raw survey data into a structured format suitable for advanced analysis.
+
+- **Schema Design**: Developed a master-detail architecture with a central `Customer_Master` table and four specialized detail tables (`Purchase_Motivator`, `Content_Preference`, `Cart_Abandonment_Reason`, `Ad_Attention_Driver`).
+- **Relational Integrity**: Implemented Primary and Foreign Key constraints to ensure data consistency across the behavioral segments.
+- **Normalization**: Applied 1NF principles by decomposing multi-valued attributes into dedicated tables, reducing redundancy and optimizing query performance.
+- **Analytical Layer**: Created 20 targeted SQL queries to segment customer data by age, device, and behavioral drivers, providing the foundation for the visualization phase.
+
+### 5. Dashboard & Reporting (Power BI)
 An interactive dashboard is created to present:
 
 - Marketing channel effectiveness  
@@ -112,6 +121,7 @@ Marketing Recommendations
 ## Deliverables
 - Survey dataset  
 - Cleaned Excel file  
+- SQL Implementation Scripts (Data Modeling)
 - Analysis results  
 - Power BI dashboard  
 - Business recommendations  
