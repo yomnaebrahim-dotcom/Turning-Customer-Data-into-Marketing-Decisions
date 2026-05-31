@@ -41,8 +41,8 @@ This dataset enables behavioral analysis focused on **why customers make decisio
 
 | Area | Tools |
 |------|------|
-| Data Collection | Microsoft Forms |
-| Data Preparation | Excel / Python |
+| Data Collection | Microsoft Forms / Power Automate|
+| Data Preparation | Excel / Python (Pandas)|
 | Data Analysis | Excel |
 | Visualization | Power BI |
 | Database | MySQL / SQL |
@@ -53,15 +53,16 @@ This dataset enables behavioral analysis focused on **why customers make decisio
 ## Methodology
 
 ### 1. Data Collection
-- Design structured survey  
+- Design structured bilingual MS survey  
 - Distribute via social media and direct sharing  
-- Collect responses from target audience  
+- Captured 270+ responses .
+- Used Power Automate to sync responses to a cloud Excel file.
 
 ### 2. Data Preparation (Python / Excel)
-- Clean responses  
-- Handle missing values  
-- Standardize answers  
-- Encode categorical data  
+- Unified Arabic and English responses using a global dictionary.
+- Cleaned multiple-choice text arrays (removed brackets, quotes, and hidden spaces).
+- Renamed columns to analytical variables and shortened answers.
+- Split multiple-choice compound answers into individual rows to prevent row explosions and ensure accurate counting (Power query).
 
 ### 3. Exploratory Data Analysis
 - Response distribution analysis  
