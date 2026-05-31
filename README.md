@@ -42,7 +42,7 @@ This dataset enables behavioral analysis focused on **why customers make decisio
 | Area | Tools |
 |------|------|
 | Data Collection | Microsoft Forms |
-| Data Preparation | Excel |
+| Data Preparation | Excel / Python |
 | Data Analysis | Excel |
 | Visualization | Power BI |
 | Database | MySQL / SQL |
@@ -57,7 +57,7 @@ This dataset enables behavioral analysis focused on **why customers make decisio
 - Distribute via social media and direct sharing  
 - Collect responses from target audience  
 
-### 2. Data Preparation (Excel)
+### 2. Data Preparation (Python / Excel)
 - Clean responses  
 - Handle missing values  
 - Standardize answers  
@@ -106,7 +106,7 @@ Survey Design
 ↓  
 Data Collection  
 ↓  
-Cleaning (Excel)  
+Cleaning (Python / Excel)  
 ↓  
 Exploration  
 ↓  
